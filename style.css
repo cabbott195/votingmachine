@@ -1,7 +1,12 @@
 html{
     font-family: 'Orelega One', cursive;
+    background: url(https://media2.giphy.com/media/26DHprpz3hM52/giphy.gif) no-repeat;
+    background-attachment: fixed;
 }
-
+h2{
+  background-color: white;
+  font-size: 30px;
+}
 button.nixon{
     height: 400px;
     width: 400px;
@@ -9,14 +14,14 @@ button.nixon{
     text-align: center;
 }
 
-  /* .nixon{
+  .nixon{
     width: 200px;
     height: 30px;
     cursor: pointer;
     display: inline-block;
     padding: 20px;
     color: #fff;
-    font-size: 22px;
+    font-size: 115px;
     font-family: sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -40,8 +45,11 @@ button.nixon{
       background: #b20000;
       box-shadow: 0px 0px 3px #b20000;
     }
-  } */
+  }
 
   h1, h2{
       text-align: center;
   }
+
+  body { overflow: hidden }
+  #dababy { position: absolute; left: -1000px; width: 50% /* <- not relevant for the animation */ }
