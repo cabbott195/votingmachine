@@ -1,0 +1,11 @@
+body{
+    background: url(https://media.giphy.com/media/fZYpwfWWg9F9egQhdS/giphy.gif) fixed no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    border: 6px double;
+}

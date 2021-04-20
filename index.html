@@ -11,13 +11,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- source: https://pixabay.com/de/flugzeuge-propeller-aircraft-alt-3674305/ -->
 </head>
-<img id="dababy" src="dababy.jpeg"/>
-    <body style="background-image: https://media2.giphy.com/media/26DHprpz3hM52/giphy.gif">
+<body>
     <h1>Welcome To Americas Number 1 Totally Legit Voting Machine</h1>
     <h2>Who has your vote?</h2>
     <h2 id="hypno">YOU WANT TO VOTE FOR NIXON</h2>
 
-    <button class="nixon">Nixon</button>
+    <!-- <button class="nixon">Nixon</button> -->
     <button class="mcg">Mcgovern</button>
+    <button><a id="nixon" href="nixon.html">Nixon</a></button>
+
+    <script>
+        var nixon = document.getElementById("nixon");
+        AttachEvent(nixon, "click", EventHandler);
+
+        function AttachEvent(element, type, handler) {
+            if (element.addEventListener) element.addEventListener(type, handler, false);
+            else element.attachEvent("on"+type, handler);
+        }
+
+        function EventHandler(e) {
+            console.log(this);
+        }
+    </script>
+</script>
 </body>
 </html>

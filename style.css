@@ -1,20 +1,20 @@
 html{
     font-family: 'Orelega One', cursive;
-    background: url(https://media2.giphy.com/media/26DHprpz3hM52/giphy.gif) no-repeat;
-    background-attachment: fixed;
+    background: url();
 }
 h2{
   background-color: white;
   font-size: 30px;
+  color: red;
 }
-button.nixon{
+button#nixon{
     height: 400px;
     width: 400px;
     background-color: red;
     text-align: center;
 }
 
-  .nixon{
+  /* #nixon{
     width: 200px;
     height: 30px;
     cursor: pointer;
@@ -45,6 +45,10 @@ button.nixon{
       background: #b20000;
       box-shadow: 0px 0px 3px #b20000;
     }
+  } */
+
+  #nixon{
+    text-decoration: none;
   }
 
   h1, h2{
