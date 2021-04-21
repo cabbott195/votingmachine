@@ -11,19 +11,32 @@
 //     Client X/Y: ${e.clientX}, ${e.clientY}`;
 // }
 
-$(function() {
-    var img = $("#dababy"),
-        width = img.get(0).width,
-        screenWidth = $(window).width(),
-        duration = 5000;
+// (function blink() {
+//     $('hypno').fadeOut(500).fadeIn(500, blink);
+//   })();
 
-        function animateDababy() {
-            img.css("left", -width).animate({
-                "left": screenWidth
-            }, duration, animateDababy);
-        }
+// $(function() {
+//     var img = $("#dababy"),
+//         width = img.get(0).width,
+//         screenWidth = $(window).width(),
+//         duration = 5000;
 
-        animateDababy();
-});
+//         function animateDababy() {
+//             img.css("left", -width).animate({
+//                 "left": screenWidth
+//             }, duration, animateDababy);
+//         }
+
+//         animateDababy();
+// });
 
 // object.addEventListener("click", animateDababy);
+function myWindow(){
+    myWindow = window.open("patrick2.mp4", "width=150,height=1500");
+}
+
+function User(name, id){
+    this.name = "Colby";
+
+    console.log(this.name)
+}
